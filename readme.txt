@@ -4,6 +4,8 @@ Tags: categories, category base, category, permalinks, URL structure, links, seo
 Requires at least: 3.1
 Tested up to: 3.9.1
 Stable tag: 0.1.0
+License: GPLv2
+Donate link: 
 
 This plugin removes '/category' from your category permalinks. (e.g. `/category/my-category/` to `/my-category/`)
 
