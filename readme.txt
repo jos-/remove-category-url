@@ -54,3 +54,8 @@ Simply don't have a page and category with the same slug. Even if they do have t
 
 = 0.1.0 =
 * Initial release.
+
+== Upgrade Notice ==
+
+= 0.1.0 =
+* Initial release.
