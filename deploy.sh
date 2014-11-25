@@ -20,7 +20,7 @@ CURRENTDIR=`pwd`
 default_svnpath="/tmp/remove-category-url"
 default_svnurl="http://plugins.svn.wordpress.org/remove-category-url"
 default_svnuser="valeriosza"
-default_plugindir="$CURRENTDIR/remove-category-url"
+default_plugindir="$CURRENTDIR/"
 default_mainfile="remove-category-url.php"
 
 echo "1b) Path to a local directory where a temporary SVN checkout can be made."
@@ -125,6 +125,8 @@ svn update --quiet $SVNPATH/trunk --set-depth infinity
 
 echo "Ignoring GitHub specific files"
 svn propset svn:ignore "README.md
+deploy.sh
+.DS_Store
 Thumbs.db
 .git
 .gitignore" "$SVNPATH/trunk/"
