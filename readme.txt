@@ -35,8 +35,8 @@ Want to help? Use the [support](https://wordpress.org/support/plugin/remove-cate
 
 == Installation ==
 
-1. Upload `remove-category-url.zip` to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+1. Upload `remove-category-url.zip` to the `/wp-content/plugins/` directory.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. That's it! You sould now be able to access your categories via http://mydomain.com/my-category/
 
 == Frequently Asked Questions ==
