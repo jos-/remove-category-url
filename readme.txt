@@ -3,9 +3,9 @@ Contributors: valeriosza
 Tags: categories, category base, category, permalinks, URL structure, links, seo, cms, wpml, URL
 Requires at least: 3.1
 Tested up to: 4.2
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=P5QTGDB64SU8E&lc=US&item_name=WordPress%20Plugins&no_note=0&cn=Adicionar%20instru%c3%a7%c3%b5es%20especiais%20para%20o%20vendedor%3a&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
+Donate link: http://valeriosouza.com.br/en/donate/
 
 This plugin removes '/category' from your category permalinks. (e.g. `/category/my-category/` to `/my-category/`)
 
