@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Remove Category URL
- * Plugin URI: https://github.com/valeriosouza/remove-category-url
+ * Plugin URI: http://valeriosouza.com.br/portfolio/remove-category-url/
  * Description: This plugin removes '/category' from your category permalinks. (e.g. `/category/my-category/` to `/my-category/`)
  * Version: 1.1
  * Author: Valerio Souza
@@ -60,7 +60,7 @@ function remove_category_url_rewrite_rules( $category_rewrite ) {
 	global $wp_rewrite;
 
 	$category_rewrite = array();
-	
+
 	/* WPML is present: temporary disable terms_clauses filter to get all categories for rewrite */
 	if ( class_exists( 'Sitepress' ) ) {
 		global $sitepress;
@@ -88,7 +88,7 @@ function remove_category_url_rewrite_rules( $category_rewrite ) {
 	$old_category_base = get_option( 'category_base' ) ? get_option( 'category_base' ) : 'category';
 	$old_category_base = trim( $old_category_base, '/' );
 	$category_rewrite[ $old_category_base . '/(.*)$' ] = 'index.php?category_redirect=$matches[1]';
-	
+
 	return $category_rewrite;
 }
 
