@@ -3,7 +3,7 @@ Contributors: valeriosza, wordlab
 Tags: categories, category base, category, permalinks, URL structure, links, seo, cms, wpml, URL
 Requires at least: 3.1
 Tested up to: 4.3.2
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv2
 Donate link: http://wordlab.com.br/donate/
 
@@ -63,6 +63,9 @@ A particular installation does not allow the rewrite feature in disabling the pl
 
 == Changelog ==
 
+= 1.1.1 =
+* Compatible with translate.wordpress.org
+
 = 1.1 =
 * Fix Erros
 
@@ -76,6 +79,9 @@ A particular installation does not allow the rewrite feature in disabling the pl
 * Initial release.
 
 == Upgrade Notice ==
+
+= 1.1.1 =
+* Compatible with translate.wordpress.org
 
 = 1.0.2 =
 * Update Compatible with WPML.
