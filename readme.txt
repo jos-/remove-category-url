@@ -2,8 +2,8 @@
 Contributors: valeriosza
 Tags: categories, category base, category, permalinks, URL structure, links, seo, cms, wpml, URL
 Requires at least: 3.1
-Tested up to: 4.8.3
-Stable tag: 1.1.2
+Tested up to: 5.2.2
+Stable tag: 1.1.3
 License: GPLv2
 Donate link: 
 
@@ -62,6 +62,9 @@ A particular installation does not allow the rewrite feature in disabling the pl
 1. No Category URL
 
 == Changelog ==
+
+= 1.1.3 =
+* Update Fix
 
 = 1.1.2 =
 * Update
